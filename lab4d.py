@@ -10,23 +10,23 @@ num2 = 1.50
 
 def first_five(string):
     # Place code here - refer to function specifics in section below
-    sub_string = string[:5]
+    sub_string = string[:5] #:5 refers to the first 5 characters in the string
     return sub_string
 
 def last_seven(string):
     # Place code here - refer to function specifics in section below
-    sub_string = string[-7:]
+    sub_string = string[-7:] # -7: refers to the last 7 characters of the string;
     return sub_string
 
 def middle_number(num):
     # Place code here - refer to function specifics in section below
     string = str(num)
-    sub_string = string[1:3]
+    sub_string = string[1:3] # returns the 2nd and 3rd characters in the integer as a string 
     return sub_string
 
 def first_three_last_three(string1, string2):
     # Place code here - refer to function specifics in section below
-    sub_string = string1[:3] + string2[-3:]
+    sub_string = string1[:3] + string2[-3:] # appends the first and last 3 characters into one string
     return sub_string
 
 if __name__ == '__main__':
