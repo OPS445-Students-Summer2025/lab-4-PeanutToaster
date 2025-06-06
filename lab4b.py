@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#author: Ricky Tang
+#ID: 104448246
 
 def join_lists(l1, l2):
     # join_lists will return a list that contains every value from both l1 and l2
