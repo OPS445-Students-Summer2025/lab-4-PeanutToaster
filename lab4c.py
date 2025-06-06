@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#Author: Ricky TAng
+#ID: 104448246
 
 # Dictionaries
 dict_york = {'Address': '70 The Pond Rd', 'City': 'Toronto', 'Country': 'Canada', 'Postal Code': 'M3J3M6', 'Province': 'ON'}
@@ -12,7 +14,7 @@ def create_dictionary(keys, values):
     new_dict = {}
     for index in range(len(keys)): #for each index in the range of the length of the variable keys
         new_dict[keys[index]] = values[index] #set new_dict variable to the index of the keys
-    return new_dict # return the dictionary 
+    return new_dict # return the dictionary
     # Can also use while loop
     '''
     result = {}
